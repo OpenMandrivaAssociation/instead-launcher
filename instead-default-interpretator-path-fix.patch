@@ -1,0 +1,11 @@
+--- instead-launcher-0.6/platform.cpp.old	2011-08-24 14:41:30.684629711 +0400
++++ instead-launcher-0.6/platform.cpp	2011-08-24 14:41:42.325109157 +0400
+@@ -22,7 +22,7 @@
+ }
+ 
+ QString getDefaultInterpreterPath() {
+-    return "/usr/local/bin/sdl-instead";
++    return "/usr/bin/sdl-instead";
+ }
+ 
+ #elif defined(Q_OS_WIN)

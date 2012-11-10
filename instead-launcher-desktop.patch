@@ -1,0 +1,19 @@
+diff -urN instead-launcher-0.6/instead-launcher.desktop.in instead-launcher-0.6-patched/instead-launcher.desktop.in
+--- instead-launcher-0.6/instead-launcher.desktop.in	2011-07-18 04:00:47.000000000 +1100
++++ instead-launcher-0.6-patched/instead-launcher.desktop.in	2011-08-25 20:58:20.777259405 +1100
+@@ -1,12 +1,10 @@
+ [Desktop Entry]
+-Encoding=UTF-8
+-Version=0.6.1
+ Type=Application
+ Name=INSTEAD Launcher
+ Name[ru]=INSTEAD Launcher
+ Comment=Launcher and updater for INSTEAD games
+ Comment[ru]=Установка и обновление игр для INSTEAD
+-Exec=@BIN/instead-launcher
+-Icon=sdl_instead.png
++Exec=instead-launcher
++Icon=/usr/share/pixmaps/sdl_instead.png
+ Terminal=false
+-Categories=Game;
++Categories=Game;AdventureGame;
