@@ -1,6 +1,6 @@
 Name:		instead-launcher
 Version:	0.6.1
-Release:	2
+Release:	3
 Summary:	Games download helper for Instead
 Group:		Games/Adventure
 License:	GPLv2
