@@ -4,7 +4,7 @@ Release:	3
 Summary:	Games download helper for Instead
 Group:		Games/Adventure
 License:	GPLv2
-URL:		http://instead.googlecode.com
+URL:		https://instead.googlecode.com
 Source0:	http://instead-launcher.googlecode.com/files/%{name}_%{version}.tar.gz
 # Fix default interpretator path
 Patch0:		instead-default-interpretator-path-fix.patch
