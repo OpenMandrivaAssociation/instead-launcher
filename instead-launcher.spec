@@ -9,6 +9,7 @@ Source0:	http://instead-launcher.googlecode.com/files/%{name}_%{version}.tar.gz
 # Fix default interpretator path
 Patch0:		instead-default-interpretator-path-fix.patch
 Patch1:		instead-launcher-desktop.patch
+BuildRequires:	make
 BuildRequires:	qt4-devel
 Requires:	instead
 
